@@ -13,7 +13,7 @@ public class JenkinsTestController {
 	@ResponseBody
 	public String test(@RequestParam("request") String request) {
 		System.out.println(request);
-		String a="ssssssssssssssss:";
+		String a="aaaaaaaaaaaa:";
 		return a+request;
 	}
 }
